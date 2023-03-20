@@ -6,9 +6,10 @@ CREATE TABLE roadrunner_coredata
 );
 truncate table roadrunner_coredata;
 insert into roadrunner_coredata values ('UWAVE','GENERICATTRIBUTEFLAGBIT',1,'1=1');
+insert into roadrunner_coredata values ('UWAVE','SINGLESIGNONISSUER',1,'1=1');
+insert into roadrunner_coredata values ('UWAVE','IDPMetadata',1,'1=1');
 insert into roadrunner_coredata values ('UWAVE','GROUPUNAUTHORIZEDMODULE',1,'1=1');
 insert into roadrunner_coredata values ('UWAVE','WAVEMARKUSER',1,'1=1');
-insert into roadrunner_coredata values ('UWAVE','USERPRIVILEDGEDMODULE',1,'1=1');
 insert into roadrunner_coredata values ('UWAVE','USERMEMBERSHIP',1,'1=1');
 insert into roadrunner_coredata values ('UWAVE','USERACCESSGROUP',1,'1=1');
 insert into roadrunner_coredata values ('UWAVE','SYSUSER',1,'1=1');
